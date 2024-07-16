@@ -49,3 +49,8 @@ Modeling Project Process Steps:
 	
 ○ Conclusions based on business objectives.
 	§ Make recommendation that are in line with the business objectives.
+
+
+Tue 16/7 - Initiate first notebook draft
+Wed 17/7 - Finalize notebook and draft readme
+Thu 18/7 - Finalize all deliverables and submit
