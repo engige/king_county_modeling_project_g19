@@ -1,3 +1,5 @@
+![header](images/home_pic.jpeg)
+
 ## Overview
 
 In today's competitive real estate market, homeowners seek ways to maximize the value of their properties through renovations. This project aims to leverage linear regression modeling to provide insights into how different types of home renovations can affect the estimated value of homes. By analyzing historical sales data and applying regression techniques, we will quantify the impact of specific renovation projects on home prices, helping homeowners make data-driven decisions and real estate agents provide expert advice to their clients.
@@ -26,12 +28,15 @@ The data preparation process involved several critical steps to ensure data qual
 
 ## Modeling & Validation
 
-The modeling process involved an iterative approach to evaluate and improve model performance based on key metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-Squared (R²). Initially, four models were built without addressing outliers, multicollinearity, or scaling. Among these, Model 4 (with features sqft_living, grade, bathrooms, and sqft_above) performed best with the lowest errors and highest explanatory power. Initial modelling also indicated that including additional relevant features improves model performance. Subsequent iterations involved addressing outliers by capping them, which improved the model's metrics significantly. However, addressing multicollinearity by dropping sqft_above did not enhance the performance, indicating the importance of this feature. Scaling predictors also did not impact the model's performance, as linear regression inherently adjusts for the scales of input features.
+The modeling process involved an iterative approach to evaluate and improve model performance based on key metrics: Mean Absolute Error (MAE), Mean Squared Error (MSE), and R-Squared (R²). Initially, four models were built without addressing outliers, multicollinearity, or scaling. Among these, Model 4 (with features sqft_living, grade, bathrooms, and sqft_above) performed best with the lowest errors and highest explanatory power **(Model 4 - MAE: 129160.6885549101, MSE: 27242617861.51876, R2: 0.560280766314314)**. Initial modelling also indicated that including additional relevant features improves model performance. Subsequent iterations involved addressing outliers by capping them, which improved the model's metrics significantly. However, addressing multicollinearity by dropping sqft_above did not enhance the performance, indicating the importance of this feature. Scaling predictors also did not impact the model's performance, as linear regression inherently adjusts for the scales of input features.
 
-Further refinement included diagnosing the best-performing model (Model 4, under Iteration 2) for conformity to linear regression assumptions. The initial diagnosis indicated violations of linearity and normality. To address this and based on previous observations, further model iteration was performed with outliers removed, predictors scaled, price log transformed and an additional feature included (bedrooms). The refined Model 5 showed improved adherence to linear regression assumptions, with better linearity and normality. When predictions were transformed back to the original scale, Model 5 achieved the best metrics: MAE of 123,967, MSE of 26,571,843,532, and R² of 0.568, indicating the highest accuracy and explanatory power achieved yet. This iterative approach ensured the development of a robust and reliable linear regression model for predicting house prices.
+Further refinement included diagnosing the best-performing model (Model 4, under Iteration 2) for conformity to linear regression assumptions. The initial diagnosis indicated violations of linearity and normality. To address this and based on previous observations, further model iteration was performed with outliers removed, predictors scaled, price log transformed and an additional feature included (bedrooms). The refined Model 5 showed improved adherence to linear regression assumptions, with better linearity and normality. When predictions were transformed back to the original scale, **Model 5 achieved the best metrics: MAE of 123,967, MSE of 26,571,843,532, and R² of 0.568**, indicating the highest accuracy and explanatory power achieved yet. This iterative approach ensured the development of a robust and reliable linear regression model for predicting house prices.
+
+### Model 4 Diagnosis
+![modeling1](images/model4_diagnosis.png)
 
 ### Model 5 Diagnosis
-![modeling1](images/model5_diagnosis.png)
+![modeling2](images/model5_diagnosis.png)
 
 ## Conclusion
 
