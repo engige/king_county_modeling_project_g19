@@ -51,3 +51,7 @@ The iterative modeling process culminated in the development of a robust predict
 3. **Market Insights:** Utilize the insights from the model to identify market trends and property features that are most desirable to buyers. This can help the agency better position properties in the market and tailor marketing strategies to highlight key selling points.
 
 By leveraging the predictive capabilities of the model, the agency can offer precise, actionable advice to homeowners, helping them maximize their return on investment from renovation projects. This not only enhances client satisfaction but also strengthens the agency's reputation as a knowledgeable and reliable real estate advisor.
+
+## For More Information
+
+See the full analysis in the [Jupyter Notebook](./index.ipynb).
