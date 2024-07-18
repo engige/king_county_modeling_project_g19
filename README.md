@@ -40,14 +40,14 @@ Further refinement included diagnosing the best-performing model (Model 4, under
 
 ## Conclusion
 
-The iterative modeling process culminated in the development of a robust predictive model (Model 5) that estimates the increase in home value based on sqft_living, grade, sqft_above, bathrooms, and bedrooms as key features. The models R2 of 0.57 on the test set indictates that 57% of the variance in housing prices can be explained by these key features. This strong explanatory power between key features and home prices suggest that strategic renovations can substantially increase a property's value.
+The iterative modeling process culminated in the development of a robust predictive model (Model 5) that estimates the increase in home value based on sqft_living, grade, sqft_above, bathrooms, and bedrooms as key features. The model's R2 of 0.57 on the test set indictates that 57% of the variance in housing prices can be explained by these key features. This strong explanatory power between key features and home prices suggest that strategic renovations can substantially increase a property's value.
 
 ### Recommendations:
 
-1. Focus on High-Impact Renovations: The agency should advise homeowners to prioritize renovations that significantly increase the living area, improve the quality of construction, and add more functional spaces such as bathrooms and bedrooms. These improvements are shown to have the most substantial impact on home value.
+1. **Focus on High-Impact Renovations:** The agency should advise homeowners to prioritize renovations that significantly increase the living area, improve the quality of construction, and add more functional spaces such as bathrooms and bedrooms. These improvements are shown to have the most substantial impact on home value.
 
-2. Use the Predictive Model for Client Consultations: Incorporate the predictive model into client consultations to provide data-driven estimates of potential home value increases from specific renovations. This will help homeowners make informed decisions about their renovation projects.
+2. **Use the Predictive Model for Client Consultations:** Incorporate the predictive model into client consultations to provide data-driven estimates of potential home value increases from specific renovations. This will help homeowners make informed decisions about their renovation projects.
 
-3. Market Insights: Utilize the insights from the model to identify market trends and property features that are most desirable to buyers. This can help the agency better position properties in the market and tailor marketing strategies to highlight key selling points.
+3. **Market Insights:** Utilize the insights from the model to identify market trends and property features that are most desirable to buyers. This can help the agency better position properties in the market and tailor marketing strategies to highlight key selling points.
 
 By leveraging the predictive capabilities of the model, the agency can offer precise, actionable advice to homeowners, helping them maximize their return on investment from renovation projects. This not only enhances client satisfaction but also strengthens the agency's reputation as a knowledgeable and reliable real estate advisor.
